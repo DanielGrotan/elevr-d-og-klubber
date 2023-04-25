@@ -1,4 +1,4 @@
-const colorTheme = () => {
+export default function colorTheme() {
   // Selectors
   const themeToggleButtons = document.querySelectorAll("#theme-toggle");
 
@@ -28,6 +28,4 @@ const colorTheme = () => {
   themeToggleButtons.forEach((button) =>
     button.addEventListener("click", handleThemeToggle)
   );
-};
-
-export default colorTheme;
+}

@@ -1,0 +1,15 @@
+{
+  "basePath": "assets/images/news-images/",
+  "images": [
+    {
+      "filename": "vaffeldag.jpg",
+      "description": "Vaffeldagen arrangert av elevrådet",
+      "altText": "Vaffeldag"
+    },
+    {
+      "filename": "ftc.jpg",
+      "description": "Vi deltar i First Tech Challenge (FTC)!",
+      "altText": "First Tech Challenge (FTC)"
+    }
+  ]
+}

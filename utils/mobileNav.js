@@ -1,4 +1,4 @@
-const mobileNav = () => {
+export default function mobileNav() {
   // Selectors
   const headerButton = document.querySelector(".header__bars");
   const mobileNav = document.querySelector(".mobile-nav");
@@ -27,6 +27,4 @@ const mobileNav = () => {
   mobileNavLinks.forEach((link) =>
     link.addEventListener("click", handleHeaderToggle)
   );
-};
-
-export default mobileNav;
+}

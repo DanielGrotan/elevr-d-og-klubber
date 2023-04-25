@@ -1,13 +1,13 @@
-.slideshow {
+.carousel {
   position: relative;
 }
 
-.slideshow__slide {
+.carousel__slide {
   display: none;
 }
 
-.slideshow__prev,
-.slideshow__next {
+.carousel__prev,
+.carousel__next {
   cursor: pointer;
   position: absolute;
   z-index: 2;
@@ -23,17 +23,17 @@
   user-select: none;
 }
 
-.slideshow__next {
+.carousel__next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.slideshow__prev:hover,
-.slideshow__next:hover {
+.carousel__prev:hover,
+.carousel__next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.slideshow__slide-numbertext {
+.carousel__slide-numbertext {
   color: #f2f2f2;
   font-size: var(--size-base);
   padding: 8px 12px;
@@ -42,11 +42,11 @@
   top: 0;
 }
 
-.slideshow__slide-img-wrapper {
+.carousel__slide-img-wrapper {
   position: relative;
 }
 
-.slideshow__slide-img-wrapper::after {
+.carousel__slide-img-wrapper::after {
   content: "";
   background-color: rgb(79, 70, 229, 0.4);
   position: absolute;
@@ -54,7 +54,7 @@
   z-index: 1;
 }
 
-.slideshow__slide-text {
+.carousel__slide-text {
   color: #f2f2f2;
   font-size: var(--size-lg);
   padding: 8px 12px;
@@ -70,64 +70,64 @@
 
 /* sm */
 @media (min-width: 640px) {
-  .slideshow__slide-numbertext {
+  .carousel__slide-numbertext {
     font-size: var(--size-lg);
   }
 
-  .slideshow__slide-text {
+  .carousel__slide-text {
     font-size: var(--size-xl);
   }
 
-  .slideshow__prev,
-  .slideshow__next {
+  .carousel__prev,
+  .carousel__next {
     font-size: var(--size-4xl);
   }
 }
 
 /* md */
 @media (min-width: 768px) {
-  .slideshow__slide-numbertext {
+  .carousel__slide-numbertext {
     font-size: var(--size-base);
   }
 
-  .slideshow__slide-text {
+  .carousel__slide-text {
     font-size: var(--size-lg);
   }
 
-  .slideshow__prev,
-  .slideshow__next {
+  .carousel__prev,
+  .carousel__next {
     font-size: var(--size-3xl);
   }
 }
 
 /* lg */
 @media (min-width: 1024px) {
-  .slideshow__slide-numbertext {
+  .carousel__slide-numbertext {
     font-size: var(--size-lg);
   }
 
-  .slideshow__slide-text {
+  .carousel__slide-text {
     font-size: var(--size-xl);
   }
 
-  .slideshow__prev,
-  .slideshow__next {
+  .carousel__prev,
+  .carousel__next {
     font-size: var(--size-4xl);
   }
 }
 
 /* xl */
 @media (min-width: 1280px) {
-  .slideshow__slide-numbertext {
+  .carousel__slide-numbertext {
     font-size: var(--size-lg);
   }
 
-  .slideshow__slide-text {
+  .carousel__slide-text {
     font-size: var(--size-xl);
   }
 
-  .slideshow__prev,
-  .slideshow__next {
+  .carousel__prev,
+  .carousel__next {
     font-size: var(--size-4xl);
   }
 }
