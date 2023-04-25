@@ -53,7 +53,6 @@ export default function carousel(imagesJson) {
 function renderCarousel(carouselContainer, imagesJson) {
   const slides = [];
 
-  // On mount
   for (let i = 0; i < imagesJson.images.length; i++) {
     const { filename, description, altText } = imagesJson.images[i];
 
