@@ -45,86 +45,23 @@
 
   .about__content-description {
     font-size: var(--size-lg);
+    grid-area: description;
   }
 
-  .about__content-container {
-    display: grid;
-    grid-template-areas:
-      "description1 image1"
-      "image2 description2"
-      "description3 image3"
-      "image4 description4"
-      "description5 image5"
-      "image6 description6"
-      "description7 image7"
-      "image8 description8";
+  .about__Content-img-wrapper {
+    grid-area: image;
+  }
 
+  .about__person-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image description";
     place-items: center;
     gap: 2rem;
   }
 
-  #image1 {
-    grid-area: image1;
-  }
-
-  #image2 {
-    grid-area: image2;
-  }
-
-  #image3 {
-    grid-area: image3;
-  }
-
-  #image4 {
-    grid-area: image4;
-  }
-
-  #image5 {
-    grid-area: image5;
-  }
-
-  #image6 {
-    grid-area: image6;
-  }
-
-  #image7 {
-    grid-area: image7;
-  }
-
-  #image8 {
-    grid-area: image8;
-  }
-
-  #description1 {
-    grid-area: description1;
-  }
-
-  #description2 {
-    grid-area: description2;
-  }
-
-  #description3 {
-    grid-area: description3;
-  }
-
-  #description4 {
-    grid-area: description4;
-  }
-
-  #description5 {
-    grid-area: description5;
-  }
-
-  #description6 {
-    grid-area: description6;
-  }
-
-  #description7 {
-    grid-area: description7;
-  }
-
-  #description8 {
-    grid-area: description8;
+  .about__person-container:nth-child(odd) {
+    grid-template-areas: "description image";
   }
 }
 
