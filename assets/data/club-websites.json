@@ -1,0 +1,29 @@
+{
+  "basePath": "./assets/images/club-websites/",
+  "images": [
+    {
+      "filename": "not-made-yet.png",
+      "caption": "Programmeringsklubben",
+      "altText": "Programmeringsklubben nettside",
+      "websiteUrl": "/programmeringsklubben"
+    },
+    {
+      "filename": "not-made-yet.png",
+      "caption": "Matteklubben",
+      "altText": "Matteklubben nettside",
+      "websiteUrl": "#"
+    },
+    {
+      "filename": "not-made-yet.png",
+      "caption": "Brettspillklubben",
+      "altText": "Brettspillklubben nettside",
+      "websiteUrl": "#"
+    },
+    {
+      "filename": "not-made-yet.png",
+      "caption": "...",
+      "altText": "... nettside",
+      "websiteUrl": "#"
+    }
+  ]
+}

@@ -11,6 +11,11 @@
   text-align: center;
 }
 
+.about__person-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .about__content-description {
   font-size: var(--size-sm);
   color: var(--clr-slate600);
@@ -48,7 +53,7 @@
     grid-area: description;
   }
 
-  .about__Content-img-wrapper {
+  .about__content-img-wrapper {
     grid-area: image;
   }
 
