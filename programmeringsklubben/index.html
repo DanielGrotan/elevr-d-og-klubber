@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="../styles/utils.css" />
     <link rel="stylesheet" href="../styles/components/header.css" />
     <link rel="stylesheet" href="../styles/components/mobile-nav.css" />
+    <link rel="stylesheet" href="../styles/components/hero.css" />
+    <link rel="stylesheet" href="../styles/components/club/about.css" />
+    <link rel="stylesheet" href="../styles/components/carousel.css" />
+    <link rel="stylesheet" href="../styles/components/club/members.css" />
+    <link rel="stylesheet" href="../styles/components/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -80,6 +85,58 @@
         </ul>
       </nav>
     </div>
+
+    <main>
+      <section class="hero container">
+        <div class="hero__background-img-wrapper">
+          <img
+            class="hero__background-img"
+            src="../assets/images/kunnskapssenteret.jpg"
+            alt="Programmeringsklubben" />
+        </div>
+        <h1 class="hero__title">Programmeringsklubben</h1>
+      </section>
+
+      <section id="om-klubben" class="about container section">
+        <h2 class="about__title">Om klubben</h2>
+        <div class="about__content-container">
+          <p class="about__description">
+            Skolens elevråd står på for miljøet og fellesskap på skolen.
+            Elevrådet har startet opp flere elevklubber. I år har vi matte- og
+            programmeringsklubb som i hovedsak driver med problemløsning, filmer
+            løsningsforslag som legges på Youtube og ellers har gode faglige
+            diskusjoner. Brettspillklubben på fredager er populær og elevene
+            setter pris på det sosiale fellesskapet. Dungeon & Dragonsklubben er
+            for spesielt interesserte, men alle er velkomne. Du får opplæring
+            hvis du ikke kjenner til spillet fra før. Alle klubbene har mange
+            deltakere og er med på å gjøre det enklere å komme inn i elevmiljøet
+            og bli kjent med elever på tvers av trinn. Elevrådet arrangerer også
+            enkeltevents som Mesternes Mester, Halloweenkåring, skolefilm,
+            kakedag, rebusløp, skoleball, bowling osv. De har også laget et kult
+            design til årets skolegensere.
+          </p>
+          <div class="carousel"></div>
+        </div>
+      </section>
+
+      <section id="medlemmer" class="members container section">
+        <h2 class="members__title">Medlemmer</h2>
+        <table class="members__table" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Navn</th>
+              <th>Klasse</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody class="members__content"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="footer container section">
+      <h2 class="footer__title">~ Programmeringsklubben ~</h2>
+    </footer>
 
     <script src="index.js" type="module"></script>
   </body>

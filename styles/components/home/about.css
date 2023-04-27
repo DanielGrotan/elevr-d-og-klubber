@@ -18,7 +18,7 @@
 
 .about__content-description {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
   margin-block: 1rem;
   max-width: 60ch;
   align-self: center;

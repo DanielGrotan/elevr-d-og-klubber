@@ -56,7 +56,7 @@ function renderCarousel(carouselContainer, imagesJson) {
   for (let i = 0; i < imagesJson.images.length; i++) {
     const { filename, description, altText } = imagesJson.images[i];
 
-    const carouselSlideContainer = document.createElement("div");
+    const carouselSlideContainer = document.createElement("article");
     carouselSlideContainer.className = "carousel__slide";
 
     const slideNumbertext = document.createElement("p");

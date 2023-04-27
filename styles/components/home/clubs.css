@@ -63,10 +63,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
-
-  .clubs__club-caption {
-    font-size: var(--size-3xl);
-  }
 }
 
 /* xl */
@@ -77,12 +73,18 @@
 
   .clubs__content {
     margin-top: 2rem;
+    width: 80%;
+    margin-inline: auto;
   }
 
   .clubs__club-caption {
-    font-size: var(--size-4xl);
+    font-size: var(--size-3xl);
   }
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+  .clubs__content {
+    width: 70%;
+  }
+}
