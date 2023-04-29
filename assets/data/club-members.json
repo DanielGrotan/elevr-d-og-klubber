@@ -1,12 +1,52 @@
 [
   {
-    "name": "Daniel G",
+    "name": "Daniel Gregusson",
     "className": "ST2A",
     "email": "28gredan@stud.akademiet.no"
   },
   {
-    "name": "Daniel G",
+    "name": "Malin Hansen",
     "className": "ST2A",
-    "email": "28gredan@stud.akademiet.no"
+    "email": "58hanmal@stud.akademiet.no"
+  },
+  {
+    "name": "Andreas Pettersen",
+    "className": "ST1B",
+    "email": "31petand@stud.akademiet.no"
+  },
+  {
+    "name": "Maria Johansen",
+    "className": "ST1A",
+    "email": "14johmar@stud.akademiet.no"
+  },
+  {
+    "name": "Simon Kristiansen",
+    "className": "ST3A",
+    "email": "72krisim@stud.akademiet.no"
+  },
+  {
+    "name": "Amalie Berg",
+    "className": "ST2A",
+    "email": "47berama@stud.akademiet.no"
+  },
+  {
+    "name": "Fredrik Andersen",
+    "className": "ST1B",
+    "email": "18andfre@stud.akademiet.no"
+  },
+  {
+    "name": "Victoria Nguyen",
+    "className": "ST1A",
+    "email": "25nguvic@stud.akademiet.no"
+  },
+  {
+    "name": "Markus Olsen",
+    "className": "ST3A",
+    "email": "91olsmar@stud.akademiet.no"
+  },
+  {
+    "name": "Ingrid Larsen",
+    "className": "ST2A",
+    "email": "34laring@stud.akademiet.no"
   }
 ]
