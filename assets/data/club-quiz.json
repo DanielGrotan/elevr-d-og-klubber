@@ -1,0 +1,138 @@
+[
+  {
+    "question": "Hva er din erfaring med programmering?",
+    "alternatives": [
+      {
+        "text": "Ingen",
+        "points": 0
+      },
+      {
+        "text": "Litt",
+        "points": 1
+      },
+      {
+        "text": "Mye",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "question": "Foretrekker du å jobbe alene eller i en gruppe?",
+    "alternatives": [
+      {
+        "text": "Alene",
+        "points": 0
+      },
+      {
+        "text": "Begge deler",
+        "points": 1
+      },
+      {
+        "text": "I en gruppe",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "question": "Hva slags type programmering interesserer deg mest?",
+    "alternatives": [
+      {
+        "text": "Web-utvikling",
+        "points": 2
+      },
+      {
+        "text": "Data science",
+        "points": 1
+      },
+      {
+        "text": "Maskinlæring og AI",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Hvor mye tid kan du bruke på programmering i uken?",
+    "alternatives": [
+      {
+        "text": "Mindre enn 5 timer",
+        "points": 0
+      },
+      {
+        "text": "5-10 timer",
+        "points": 1
+      },
+      {
+        "text": "Mer enn 10 timer",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "question": "Hvorfor vil du lære mer om programmering?",
+    "alternatives": [
+      {
+        "text": "Hobby",
+        "points": 2
+      },
+      {
+        "text": "Karriere",
+        "points": 1
+      },
+      {
+        "text": "Skolearbeid",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Hva slags datamaskin har du tilgang til?",
+    "alternatives": [
+      {
+        "text": "Mac",
+        "points": 2
+      },
+      {
+        "text": "Windows",
+        "points": 1
+      },
+      {
+        "text": "Annet",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Hva slags programvare har du erfaring med?",
+    "alternatives": [
+      {
+        "text": "Microsoft Office",
+        "points": 1
+      },
+      {
+        "text": "Adobe Creative Suite",
+        "points": 2
+      },
+      {
+        "text": "Ingen av dem",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Hvor mye tålmodighet har du når du løser problemer?",
+    "alternatives": [
+      {
+        "text": "Lav",
+        "points": 0
+      },
+      {
+        "text": "Medium",
+        "points": 1
+      },
+      {
+        "text": "Høy",
+        "points": 2
+      }
+    ]
+  }
+]

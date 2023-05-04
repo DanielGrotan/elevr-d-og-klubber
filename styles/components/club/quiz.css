@@ -1,0 +1,35 @@
+.quiz__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
+  text-align: center;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .quiz__title {
+    font-size: var(--size-3xl);
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .quiz__title {
+    font-size: var(--size-4xl);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .quiz__title {
+    font-size: var(--size-5xl);
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

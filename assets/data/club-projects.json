@@ -1,0 +1,17 @@
+{
+  "basePath": "/assets/images/club-projects/",
+  "projects": [
+    {
+      "title": "Utvikling av en mobilapplikasjon for matlaging",
+      "description": "Klubben jobbet med å utvikle en mobilapplikasjon for matlaging, som skulle hjelpe brukerne med å finne oppskrifter basert på tilgjengelige ingredienser. Appen ble utviklet ved hjelp av React Native og integrert med en tredjeparts-API for oppskriftsdata. Medlemmene i klubben jobbet med å utvikle funksjonaliteter som søk etter oppskrifter, mulighet for å lagre oppskrifter i en favorittliste og dele oppskrifter med venner.",
+      "filename": "mobile-food-app.webp",
+      "altText": "Mobile food app"
+    },
+    {
+      "title": "Design og utvikling av en nettside for et lokalt museum",
+      "description": "Klubben jobbet med å designe og utvikle en nettside for et lokalt museum. Medlemmene i klubben gjennomførte en omfattende brukerundersøkelse for å forstå behovene til besøkende på museet, og brukte disse innsiktene for å designe en brukervennlig nettside som skulle gjøre det enklere å utforske museets samlinger og utstillinger. Nettsiden ble utviklet ved hjelp av HTML, CSS og JavaScript, og ble tilpasset for både desktop- og mobilvisning.",
+      "filename": "museum-website.jpg",
+      "altText": "Museum website"
+    }
+  ]
+}

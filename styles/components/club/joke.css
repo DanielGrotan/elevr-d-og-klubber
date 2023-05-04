@@ -1,0 +1,58 @@
+.joke__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.joke__description {
+  max-width: 60ch;
+  font-size: var(--size-base);
+  color: var(--clr-slate400);
+  margin: 1rem auto;
+  text-align: center;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .joke__title {
+    font-size: var(--size-3xl);
+  }
+
+  .joke__description {
+    font-size: var(--size-lg);
+    margin-block: 1.5rem;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .joke__title {
+    font-size: var(--size-4xl);
+  }
+
+  .joke__description {
+    font-size: var(--size-xl);
+    max-width: 60ch;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .joke__title {
+    font-size: var(--size-5xl);
+  }
+
+  .joke__description {
+    font-size: var(--size-2xl);
+    margin-block: 2rem;
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
