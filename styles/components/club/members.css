@@ -7,14 +7,14 @@
 .members__table {
   margin-inline: auto;
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
   table-layout: fixed;
   margin-top: 1rem;
   border: 2px solid var(--clr-light);
 }
 
 .members__table :is(td, th) {
-  padding: 1rem;
+  padding: 1.25rem;
   overflow-wrap: break-word;
 }
 
@@ -24,6 +24,14 @@
 
 .members__table td {
   font-size: var(--size-sm);
+}
+
+th {
+  background-color: rgb(79, 70, 229, 0.4);
+}
+
+tr:nth-child(2n) {
+  background-color: var(--clr-table);
 }
 
 .members__table :is(tbody tr:not(:nth-last-child(1)) td, th) {

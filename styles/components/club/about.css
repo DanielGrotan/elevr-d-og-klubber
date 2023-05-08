@@ -1,6 +1,7 @@
 .about__title {
   font-size: var(--size-2xl);
   color: var(--clr-light);
+  margin-top: 2rem;
 }
 
 .about__content-container {

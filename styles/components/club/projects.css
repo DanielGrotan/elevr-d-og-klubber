@@ -36,6 +36,10 @@
     font-size: var(--size-3xl);
   }
 
+  .projects__content {
+    margin-top: 1.5rem;
+  }
+
   .projects__description {
     font-size: var(--size-base);
     margin-block: 1.5rem;
@@ -84,7 +88,8 @@
   .projects__content {
     width: 80%;
     margin-inline: auto;
-    gap: 2rem;
+    gap: 3rem;
+    margin-top: 2rem;
   }
 
   .projects__description {
