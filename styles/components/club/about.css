@@ -1,13 +1,18 @@
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  margin-top: 2rem;
+}
+
 .about__title {
   font-size: var(--size-2xl);
   color: var(--clr-light);
-  margin-top: 2rem;
+  text-align: center;
 }
 
 .about__content-container {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  justify-content: center;
   margin-block: 1rem;
 }
 
@@ -38,8 +43,6 @@
 /* md */
 @media (min-width: 768px) {
   .about__content-container {
-    flex-direction: row;
-    align-items: center;
     gap: 2rem;
   }
 
